@@ -1,8 +1,45 @@
-customtkinter>=2.3.0
-matplotlib>=3.8.0
-pandas>=2.2.0
-openpyxl>=3.1.0
-reportlab>=4.1.0
-Pillow>=10.0.0
-PyInstaller>=6.0.0
-pytest>=8.0.0
+# Financeiro Pessoal
+
+Aplicativo local para controle financeiro pessoal em Python, com interface em CustomTkinter e persistência em SQLite.
+
+## Estrutura do projeto
+
+- `financeiro_pessoal/` — pacote principal
+- `main.py` — ponto de entrada do programa
+- `requirements.txt` — dependências do projeto
+- `tests/` — testes automatizados
+
+## Requisitos
+
+- Python 3.10+
+- pip
+
+## Instalação
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Execução
+
+```bash
+python main.py
+```
+
+## Funcionalidades da base implementada
+
+- Banco SQLite local, persistente e organizado
+- Estrutura modular para receitas, despesas, serviços e interface
+- Cálculos financeiros centrais validados por testes
+- Configuração do caminho do banco em diretório do usuário
+
+## Próximos passos
+
+- contas recorrentes
+- cartões e compras parceladas
+- metas de economia
+- relatórios em PNG/PDF/Excel/CSV
+- backup e restauração
+- telas de cadastro completas
