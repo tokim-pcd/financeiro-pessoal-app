@@ -1,2 +1,7 @@
-# financeiro-pessoal-app
-Sistema local de controle financeiro pessoal para Windows em Python com banco SQLite e interface moderna.
+from __future__ import annotations
+
+from financeiro_pessoal.ui.app import run
+
+
+if __name__ == "__main__":
+    run()
